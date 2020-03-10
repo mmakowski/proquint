@@ -8,11 +8,24 @@ A Java implementation of [A Proposal for Proquints: Identifiers that are Readabl
 
 ### Maven
 
-TODO
+Add to `<repositories>` section of your `pom.xml`:
 
-### Gradle
+```xml
+<repository>
+    <id>mmakowski</id>
+    <url>https://dl.bintray.com/mmakowski/maven</url>
+</repository>
+```
 
-TODO
+then to `<dependencies>`:
+
+```xml
+<dependency>
+    <groupId>com.mmakowski</groupId>
+    <artifactId>proquint</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
 
 ## Usage
 
