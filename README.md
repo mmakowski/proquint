@@ -23,7 +23,7 @@ then to `<dependencies>`:
 <dependency>
     <groupId>com.mmakowski</groupId>
     <artifactId>proquint</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
